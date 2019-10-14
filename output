@@ -1,0 +1,12 @@
+
+
+gen: 0 , best_of_run_f: 0.746 , best_of_run:
+add mul 2 x sub mul x 0 -1 
+
+gen: 2 , best_of_run_f: 1.0 , best_of_run:
+add mul add add 0 x add 0 2 x sub mul x 0 -1 
+
+
+END OF RUN
+best_of_run attained at gen 2 and has f=1.0
+add mul add add 0 x add 0 2 x sub mul x 0 -1 
