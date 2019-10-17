@@ -1,18 +1,18 @@
 
 
 gen: 0 , best_of_run_f: 0.664 , best_of_run:
-add add 0 sub 2 x sub add sub -2 -1 0 mul add sub 1 add x 1 -2 x 
+ add  add  mul  1  2) mul) x  1) sub) mul  2  1) add) 2  1)
 
-gen: 1 , best_of_run_f: 0.746 , best_of_run:
-sub add add sub 0 x add 2 -2 sub add -1 0 add -2 sub mul 2 -1 mul x 2 sub sub 0 -2 mul 1 x 
+gen: 3 , best_of_run_f: 0.746 , best_of_run:
+ add  x  add) x  1)
 
-gen: 2 , best_of_run_f: 0.746 , best_of_run:
-sub add mul x 0 sub add -1 0 add -2 sub mul 2 -1 mul x 2 sub add 2 x mul 1 x 
+gen: 8 , best_of_run_f: 0.802 , best_of_run:
+ add  mul  add  -1  2) sub) -2  -1) sub) add  add  sub  mul  -1  -1) sub) 2  2) mul) add  x  mul) x  x) x) add) 1  x) mul) 1  mul) mul  0  x) sub) x  x)
 
-gen: 12 , best_of_run_f: 1.0 , best_of_run:
-add add 1 x mul add add mul 1 1 mul 0 sub x -1 x x 
+gen: 11 , best_of_run_f: 1.0 , best_of_run:
+ sub  mul  mul  sub  sub  mul  0  -1) add) 1  2) sub) -2  0) mul) -1  x) sub) sub  add  -2  2) mul) 0  -2) sub) -1  x) sub) -1  x)
 
 
 END OF RUN
-best_of_run attained at gen 12 and has f=1.0
-add add 1 x mul add add mul 1 1 mul 0 sub x -1 x x 
+best_of_run attained at gen 11 and has f=1.0
+ sub  mul  mul  sub  sub  mul  0  -1) add) 1  2) sub) -2  0) mul) -1  x) sub) sub  add  -2  2) mul) 0  -2) sub) -1  x) sub) -1  x)

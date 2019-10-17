@@ -47,17 +47,20 @@ class GPTree:
         self.right = right
 
     def node_label(self):  # string label
-        if (self.data in FUNCTIONS):
+        if self.data in FUNCTIONS:
             return self.data.__name__
         else:
             return str(self.data)
 
-    def print_tree(self, prefix=""):  # textual printout
-        print(self.node_label(),end =" ")
+    def print_tree(self,sep = ")",postfix=" "):  # textual printout
+        print(" " + self.node_label(),end =postfix)
         if self.left:
-            self.left.print_tree()
+            self.left.print_tree(postfix =" ")
         if self.right:
-            self.right.print_tree(prefix)
+            if self.right.node_label() in ['add','mul','sub']:
+                self.right.print_tree(postfix=')')
+            else:
+                self.right.print_tree(postfix =')')
     
     # def save_tree(self):
     #     with open("file.clj","w+") as outfile:
