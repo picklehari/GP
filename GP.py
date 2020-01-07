@@ -52,15 +52,15 @@ class GPTree:
         else:
             return str(self.data)
 
-    def print_tree(self,sep = ")",postfix=" "):  # textual printout
+    def print_tree(self,sep = " ",postfix=" "):  # textual printout
         print(" " + self.node_label(),end =postfix)
         if self.left:
             self.left.print_tree(postfix =" ")
         if self.right:
             if self.right.node_label() in ['add','mul','sub']:
-                self.right.print_tree(postfix=')')
+                self.right.print_tree(postfix=' ')
             else:
-                self.right.print_tree(postfix =')')
+                self.right.print_tree(postfix =' ')
     
     # def save_tree(self):
     #     with open("file.clj","w+") as outfile:
