@@ -7,5 +7,5 @@ The code generates a lisp code to compute a polynomial function.
 The Output is printed.
 
 ## Help Required
-Formating the code is the present challenge faced
+Build a look ahead buffer to perform tree traversal.
 
